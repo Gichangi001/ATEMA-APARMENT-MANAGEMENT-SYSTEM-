@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>
+		Self Test
+	</title>
+
+	<style>
+		/* Styling the Body element 
+		i.e. Color, Font, Alignment */
+
+	h1 {
+		color: white;
+	}
+		body {
+			background-image: url(../img/landscape-3.png);
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input, 
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio 
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #05c46b;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Heartfelt Healing Hub Self Test</h1>
+
+	<!-- Create Form -->
+	<form action="https://api.web3forms.com/submit" method="POST">
+
+		 <input type="hidden" name="access_key" value="42c0916a-f5b5-48a6-a540-262ae482051e">
+
+		<div class="form-control">
+			<label for="comment">
+				1. What makes you feel most connected in your relationship? 
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="Question 1" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				2. Have you been to couples therapy before? 
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="Question 2" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				3. What have you done or tried before to promote change?
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="Question 3" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				4. What are your expectations of this couples therapy?
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="Question 4" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				5. How much are you willing to change to keep your relationship alive?
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="Question 5" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				6. What would you consider to be your biggest problem? When did it start?
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="Question 6" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				7. Are there any past conflicts that we need to resolve?
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="Question 7" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				8. Why did you originally fall in love?
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="Question 8" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				9. What are the positive qualities which you bring to the relationship?
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="Question 9" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		 <input type="submit" value="Submit"><button type="submit" value="submit">
+			Submit
+		</button>
+
+		<label for="" class="sub-text" style="font-weight: 280;">Back to homepage&#63; </label>
+                    <a href="schedule.php" class="hover-link1 non-style-link">Click Here!</a>
+	</form>
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="process.js"></script>
+</body>
+
+</html>
